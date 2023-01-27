@@ -5,7 +5,6 @@
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
 
-
 // 0. WRITE YOUR DESCRIPTION HERE
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
@@ -23,13 +22,10 @@ if (number >= 2) {
 }
 
 */
-
-
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// creating a variable named "Dane"
+// Conditional if name entered matches exactly "Mary", then the output will print "Hi, mary!"
+// Otherwise the response from will be "How do you do?"
 
 //CODE
 /*
@@ -40,16 +36,14 @@ if (name === 'Mary') {
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// Create a variable named secret.
+// We create a variable named code that is set to equal 123.
+// We create a conditional that if code is exactly 123, then secret will now equal "super" and then new code will equal the orginal (123) TIMES 2.
+// Now if variable code is less than 250, then the new value of secret will equal "duper". A printout of new assigned "secret" will be displayed
+// based on what code variable entered. 
 //CODE
 /*
 let secret;
@@ -68,11 +62,11 @@ if (code > 250) {
 console.log(secret)
 
 */
-
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Create a variable named "isStudent" set equal to true. Set variable named "age" set equal to 34. Create variabke named "zip" set equal to 55407.
+// Now we test a conditional to see if "isStudent" is "true" and "zip" greater than 8000 (both being true), then printout of "You're a student on 
+// the West Coast!"" Otherwise test if "isStudent" is false or "age" is less than 30, a printout of "What are your hobbies?". Otherwise if 
+// "isStudent" is just true, then printout of "Welcome to Prime!". The default if none of those match then printout of "How about the weather?"
 //
 
 //CODE
@@ -92,9 +86,6 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -123,8 +114,8 @@ if (number >= 2) {
 
 */
 
-
-
+//add code of line after colorOne = 'purple' that also sets "colorTwo" = 'purple'
+//
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
@@ -138,7 +129,7 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
-
+//We need to change the || to && to make statement true 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -151,7 +142,8 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
-
+//In this code we need to change the first console.log('no entry') to console.log('enter') and we do not need the else {console.log('enter')} code. 
+// as it will be the same as the correct code.
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
